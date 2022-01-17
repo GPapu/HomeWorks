@@ -68,17 +68,25 @@ namespace HomeWork5
             //Console.WriteLine($"x= {x}, y = {y}");
             #endregion
             #region მეოთხე დავალება
-            Console.Write("enter number: ");
-            var x = Convert.ToInt32(Console.ReadLine());
-            if (x % 2 == 0)
-                {
-                for(int i = 0; i < x; i++)
-                { 
-                    x=x-2;
-                    Console.WriteLine(x*x);
-                }
+            //Console.Write("enter number: ");
+            //var x = Convert.ToInt32(Console.ReadLine());
+            //if (x % 2 == 0)
+            //    {
+            //    for(int i = 0; i < x; i++)
+            //    { 
+            //        x=x-2;
+            //        Console.WriteLine(x*x);
+            //    }
                 
-                }
+            //    }
+            #endregion
+            #region მეხუთე დავალება
+            var x = int.Parse(Console.ReadLine());
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"{x}* {i} ={x*i}");
+               
+            }
             #endregion
 
         }
